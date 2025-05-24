@@ -26,12 +26,12 @@ public class Player extends Entity {
             up2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcup2.png")));
             down1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcdown.png")));
             down2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcdown2.png")));
-            left1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcng4.png")));
-            left2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcng5.png")));
-            right1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcng2.png")));
-            right2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcng3.png")));
+            left1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcleft.png")));
+            left2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcleft2.png")));
+            right1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcright.png")));
+            right2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcright2.png")));
 
-            idle = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcng1.png")));
+            idle = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcidle.png")));
 
             upHorizontalRight1 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcuhr.png")));
             upHorizontalRight2 = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream("/player/Sprite-mcuhr2.png")));
